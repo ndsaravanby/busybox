@@ -1,0 +1,24 @@
+<project name="first-project" default= "package">
+<target name ="compile">
+<echo> "compilation stage is started" </echo>
+</target>
+<target name ="package" depends="compile">
+<echo> "package is started" </echo>
+</target>
+<target name ="clean">
+<echo> "cleaning the build" </echo>
+</project>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
