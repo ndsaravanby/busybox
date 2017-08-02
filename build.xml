@@ -5,8 +5,6 @@
 <target name ="package" depends="compile">
 <echo> "package is started" </echo>
 </target>
-<target name ="clean">
-<echo> "cleaning the build" </echo>
 </project>
 
 
