@@ -3,7 +3,7 @@
 <echo> "compilation stage is started" </echo>
 </target>
 <target name ="package" depends="compile">
-<echo> "package is started" </echo>
+<echo> "package is started and saravanan-added" </echo>
 </target>
 </project>
 
