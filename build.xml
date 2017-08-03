@@ -4,6 +4,7 @@
 </target>
 <target name ="package" depends="compile">
 <echo> "package is started" </echo>
+<echo> "poll-scm-test </echo>
 </target>
 </project>
 
