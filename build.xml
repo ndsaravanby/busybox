@@ -1,10 +1,13 @@
 <project name="first-project" default= "package">
-<target name ="compile">
+<target name ="compile" depends="poll-scm">
 <echo> "compilation stage is started" </echo>
 </target>
 <target name ="package" depends="compile">
 <echo> "package is started" </echo>
 <echo> "package is started and saravanan-added" </echo>
+</target>
+<target name ="poll-scm">
+<echo> "poll scm test" </echo>
 </target>
 </project>
 
