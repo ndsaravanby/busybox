@@ -1,6 +1,7 @@
 <project name="first-project" default= "package">
 <target name ="compile" depends="poll-scm">
 <echo> "compilation stage is started" </echo>
+<echo> "Bug-fix-Branch added and tested" </echo>
 </target>
 <target name ="package" depends="compile">
 <echo> "package is started" </echo>
